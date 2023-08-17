@@ -1,0 +1,40 @@
+body {
+  background-color: black;
+  color: white;
+}
+
+.titulo {
+  color: white;
+  text-align: center;
+}
+
+#container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.user {
+  width: 200px;
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid white;
+  background-color: black;
+  color: white;
+  text-align: center;
+}
+
+.user h3 {
+  margin-top: 0;
+}
+
+.user p {
+  margin-bottom: 0;
+}
+
+.user img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin-top: 10px;
+}
